@@ -41,8 +41,8 @@ function BanUser(u: number,reason: string)
 		p:BanAsync({
 			UserIds = {u},
 			Duration = -1,
-			DisplayReason = "[Dexel Global b System] You are bed. Reason: "..reason,
-			PrivateReason = "[DGBS] User ",
+			DisplayReason = "[Dexel Global Blacklist System] You are blacklisted. Reason: "..reason,
+			PrivateReason = "[DGBS] User blacklisted",
 			ExcludeAltAccounts = false,
 			ApplyToUniverse = true
 		})
